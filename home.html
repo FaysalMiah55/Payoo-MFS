@@ -31,34 +31,60 @@
                     </div>
                     <div class="divider"></div>
                     <!-- add money start -->
-                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
-                        <div class="form-control">
-                            <label class="label">
-                            <span class="label-text text-[16px] font-medium">Amount</span>
-                            </label>
-                            <input type="text" placeholder="Your Phone Number" id="input-add-money" class="input input-bordered" required />
-                        </div>
-                        <div class="form-control">
-                            <label class="label">
-                            <span class="label-text text-[16px] font-medium">Pin</span>
-                            </label>
-                            <input type="password" placeholder="Your Pin" id="input-pin-number" class="input input-bordered" required />
-                            <label class="label">
-                            <a href="#" class="label-text-alt link link-hover">Forgot pin?</a>
-                            </label>
-                        </div>
-                        <div class="form-control mt-6">
-                            <button id="btn-add-money" class="btn btn-primary text-xl font-semibold">Add Money</button>
-                        </div>
+                            <div class="form-control">
+                                <label class="label">
+                                <span class="label-text text-[16px] font-medium">Amount</span>
+                                </label>
+                                <input type="text" placeholder="Your Phone Number" id="input-add-money" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                <span class="label-text text-[16px] font-medium">Pin</span>
+                                </label>
+                                <input type="password" placeholder="Your Pin" id="input-pin-number" class="input input-bordered" required />
+                                <label class="label">
+                                <a href="#" class="label-text-alt link link-hover">Forgot pin ?</a>
+                                </label>
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="btn-add-money" class="btn btn-primary text-xl font-semibold">Add Money</button>
+                            </div>
                         </form>
                     </div>
                     <!-- add money end -->
+
+                    <!-- cash out money start -->
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                <span class="label-text text-[16px] font-medium">Amount</span>
+                                </label>
+                                <input type="text" placeholder="Your Phone Number" id="input-cash-out" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                <span class="label-text text-[16px] font-medium">Pin</span>
+                                </label>
+                                <input type="password" placeholder="Your Pin" id="input-cash-out-pin" class="input input-bordered" required />
+                                <label class="label">
+                                <a href="#" class="label-text-alt link link-hover">Forgot pin ?</a>
+                                </label>
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="btn-cash-out" class="btn btn-primary text-xl font-semibold">Cash Out</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- cash out money end -->
                 </div>
             </div>
         </div>
     </main>
 
-    <script src="JS/home.js"></script>
+    <script src="JS/addMoney.js"></script>
+    <script src="JS/cashOut.js"></script>
 </body>
 </html>

@@ -42,3 +42,5 @@ document.getElementById("btn-add-money")
             alert('Failed to add money! please try again')
         }
     })
+
+
